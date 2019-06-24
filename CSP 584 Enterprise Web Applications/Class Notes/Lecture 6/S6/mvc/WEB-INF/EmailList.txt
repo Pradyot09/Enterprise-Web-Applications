@@ -1,0 +1,6 @@
+jrs@something.com|John|Rinkkin
+km@something.com|k|m
+q@something.com|o|p
+|k|;pl
+ll@something.com|k|m
+wow@something.com|ppp|sss

@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+
+<html>
+ <head><title>Survey Submission</title></head>
+ <body>
+   <h2>Software Engineering Survey</h2>
+    <form method="POST" action="/csj/CompressedSurveyServlet">
+      <table cellpadding="0" cellspacing="5">
+        <tr><td colspan="2"><b>Name Information</b></td></tr>
+        <tr>
+          <td>First Name</td><td><input type="text" name="first" size="20"/></td>
+        </tr>
+        <tr>
+          <td>Middle Initial</td><td><input type="text" name="middle" size="1" /></td>
+        </tr>
+        <tr>
+          <td>Last Name</td><td><input type="text" name="last" size="30" /></td>
+        </tr>
+        <tr>
+          <td>Email</td><td><input type="text" name="email" size="30" /></td>
+        </tr>
+        <tr><td colspan="2"><hr /></td></tr>
+        <tr><td colspan="2"><b>Address Information</b></td></tr>
+        <tr>
+          <td>Address</td><td><input type="text" name="address" size="30" /></td>
+        </tr>
+        <tr>
+          <td>City</td><td><input type="text" name="city" size="30" /></td>
+        </tr>
+        <tr>
+          <td>State</td>
+          <td>
+            <select name="state">
+              <option value="IL">Illinois</option>
+              <option value="OH">Ohio</option>
+              <option value="IN">Indiana</option>
+              <option value="WI">Wisconsin</option>
+              <option value="MI">Michigan</option>
+            </select>
+            ZIP<input type="text" name="zip" size="5"/>
+          </td>
+        </tr>
+        <tr><td colspan="2"><hr /></td></tr>
+        <tr><td colspan="2"><b>Company Information</b></td></tr>
+        <tr>
+          <td>Company Name</td><td><input type="text" name="company" size="30" /></td>
+        </tr>
+        <tr>
+          <td>Company Type</td><td><input type="radio" name="co_type" value="private" />Private
+          &nbsp;<input type="radio" name="co_type" value="public" checked="true" />Public
+          &nbsp;<input type="radio" name="co_type" value="government" />Government</td>
+        </tr>
+        <tr>
+          <td valign="top">Languages Used</td>
+          <td>
+            <input type="checkbox" name="java">Java&nbsp;
+            <input type="checkbox" name="cpp">C++&nbsp;
+            <input type="checkbox" name="c">C&nbsp;
+            <input type="checkbox" name="vb">Visual Basic&nbsp;
+            <input type="checkbox" name="csharp">C#&nbsp;
+            <input type="checkbox" name="perl">Perl&nbsp;
+          </td>
+        </tr>
+        <tr><td colspan="2"><hr /></td></tr>
+        <tr>
+          <td valign="top">Comments</td><td><textarea name="comments" rows="2" cols="40"></textarea></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>
+            <input type="submit" value="Submit" />
+            <input type="hidden" name="page_name" value="login" />
+          </td>
+        </tr>
+      </table>
+    </form>
+ </body>
+</html>

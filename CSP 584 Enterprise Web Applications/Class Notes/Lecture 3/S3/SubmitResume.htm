@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- 
+Front end to servlet that handles previewing and storing resumes
+submitted by job applicants.
+   
+Taken from Core Servlets and JavaServer Pages 2nd Edition
+from Prentice Hall and Sun Microsystems Press,
+http://www.coreservlets.com/.
+&copy; 2003 Marty Hall; may be freely used or adapted.
+-->
+<HTML><HEAD><TITLE>Free Resume Posting</TITLE>
+  <LINK REL=STYLESHEET
+        HREF="jobs-site-styles.css"
+        TYPE="text/css">
+</HEAD>
+<BODY>
+<H1>hot-computer-jobs.com</H1>
+<P CLASS="LARGER">
+To use our <I>free</I> resume-posting service, simply fill
+out the brief summary of your skills below. Use "Preview"
+to check the results, then press "Submit" once it is
+ready. Your mini-resume will appear online within 24 hours.</P>
+<HR>
+<FORM ACTION="/csj/SubmitResume"
+      METHOD="POST">
+<DL>
+<DT><B>First, give some general information about the look of
+your resume:</B>
+<DD>Heading font:
+    <INPUT TYPE="TEXT" NAME="headingFont" VALUE="default">
+<DD>Heading text size:
+    <INPUT TYPE="TEXT" NAME="headingSize" VALUE=32>
+<DD>Body font:
+    <INPUT TYPE="TEXT" NAME="bodyFont" VALUE="default">
+<DD>Body text size:
+    <INPUT TYPE="TEXT" NAME="bodySize" VALUE=18>
+<DD>Foreground color:
+    <INPUT TYPE="TEXT" NAME="fgColor" VALUE="BLACK">
+<DD>Background color:
+    <INPUT TYPE="TEXT" NAME="bgColor" VALUE="WHITE">
+    
+<DT><B>Next, give some general information about yourself:</B>
+<DD>Name: <INPUT TYPE="TEXT" NAME="name">
+<DD>Current or most recent title:
+    <INPUT TYPE="TEXT" NAME="title">
+<DD>Email address: <INPUT TYPE="TEXT" NAME="email">
+<DD>Programming Languages: 
+    <INPUT TYPE="TEXT" NAME="languages">
+    
+<DT><B>Finally, enter a brief summary of your skills and
+    experience:</B> (use &lt;P&gt; to separate paragraphs. 
+    Other HTML markup is also permitted.)
+<DD><TEXTAREA NAME="skills" 
+              ROWS=10 COLS=60 WRAP="SOFT"></TEXTAREA>
+</DL>
+  <CENTER>
+    <INPUT TYPE="SUBMIT" NAME="previewButton" Value="Preview">
+    <INPUT TYPE="SUBMIT" NAME="submitButton" Value="Submit">
+  </CENTER>
+</FORM>
+<HR>
+<P CLASS="TINY">See our privacy policy
+<A HREF="we-will-spam-you.html">here</A>.</P>
+</BODY></HTML>

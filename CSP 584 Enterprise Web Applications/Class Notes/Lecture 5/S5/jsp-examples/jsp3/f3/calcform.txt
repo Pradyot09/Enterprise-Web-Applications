@@ -1,0 +1,20 @@
+<HTML>
+
+<HEAD><TITLE>A simple calculator</TITLE></HEAD>
+
+<BODY>
+
+<P>
+Enter two numbers and click the 'calculate' button.
+</P>
+
+<FORM ACTION="calculate.jsp" METHOD="GET">
+
+<INPUT TYPE="TEXT" NAME="value1"><BR>
+<INPUT TYPE="TEXT" NAME="value2"><BR>
+
+<INPUT TYPE="SUBMIT" NAME="Calculate" VALUE="Calculate">
+</FORM>
+
+</BODY>
+</HTML>

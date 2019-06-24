@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Using Beans</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<h1>Using Beans</h1>
+
+<p>
+This chapter introduced <b>beans</b>.  Beans are Java's standard
+component model, and they integrate very well with JSPs.  Beans help
+separate Java code from HTML by providing standard tags which allow
+the JSP to get data to and from the bean, via the bean's properties.
+Beans also make writing dynamic pages that use forms easier, by
+providing easy ways to send form data into beans, and get results out.
+</p>
+
+<ul>
+<li>A simple <a href="beanexample1.jsp">bean example</a> 
+    (<a href="beanexample1.txt">jsp source</a> -- 
+     <a href="beans/Bean1.java">bean source</a>).
+
+<li>An example that <a href="date.jsp">sets a property</a>
+    (<a href="date.txt">jsp source</a> --
+     <a href="beans/DateBean.java">bean source</a>).
+
+<li>A bean that <a href="reverse.jsp">gets a value from the request object</a>
+    (<a href="reverse.txt">jsp source</a> -- 
+     <a href="beans/Reverser.java">bean source</a>).
+
+<li>Another version of the <a href="calcform.html">calculator</a> 
+    that uses beans (<a href="calculator.txt">jsp source</a> --
+    <a href="beans/CalcBean.java">bean source</a>).
+
+<li>A JSP that gets data from a <a href="record.jsp">serialized bean</a>.
+    (<a href="record.txt">jsp source</a> -
+    <a href="beans/AlbumInfo.java">bean source</a>).
+
+<li>The new <a href="index1.jsp">JNT home page</a>
+    (<a href="index1.txt">source</a>).
+
+<li>The new <a href="global/quiz.jsp">quiz</a>.  The book uses a serialized
+    bean for the quiz.  Since this is not yet implemented, we instead use
+    a bean with the questions and answers hard-coded.
+    (<a href="global/quiz.txt">jsp source</a> --
+     <a href="beans/TodaysQuiz.java">bean source</a>).
+
+</body>
+</html>

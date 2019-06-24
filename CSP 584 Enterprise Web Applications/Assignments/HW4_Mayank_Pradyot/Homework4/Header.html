@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Portables</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- <script src="jquery.js"></script>  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script> 
+    $(function(){
+	  $("#Siderbar").load("LeftNavigationBar.html");
+	  $("#Content").load("Content.html");
+	  $("#Footer").load("Footer.html"); 
+    });
+    </script> 
+	
+<script type="text/javascript" src="javascript.js"></script>
+<style>
+* {
+		box-sizing : unset;
+	}
+	
+.col-md-6{
+		width : 45% ! important;
+	}
+</style>	
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+</head>
+<body onload="init()">
+<div id="container">
+    <header>
+	<div class="width">
+    		<h1>Smart Portables</h1>
+       	</div>
+		<div name="autofillform" style="float:right; width: 17%;margin-top:0px;">
+				<input type="text" name="searchId" value="" class="input"
+					id="searchId" onkeyup="doCompletion()" 
+					placeholder="Search Smart Portables.." style="padding: 5px; font-size: 15px;" />
+					
+				<div id="auto-row">
+					<table id="complete-table" class="gridtable"
+						style="position: absolute; width: 315px;" bgcolor="black"></table>
+				</div>
+		</div>
+    </header>
+    <nav>
+	<div>
+    		<ul>
+        		<li class="start selected"><a href="Home"><span class="glyphicon glyphicon-home">Home</a></li>
+        	    <li class="start selected"><a href="WearableTechList"><span class="glyphicon glyphicon-home">Wearable Technology</a></li>
+         	   	<li class="start selected"><a href="PhoneList"><span class="glyphicon glyphicon-home">Phones</a></li>
+          	  	<li class="start selected"><a href="LaptopList"><span class="glyphicon glyphicon-home">Laptops</a></li>
+          	 	<li class="start selected"><a href="VoiceAssistantList"><span class="glyphicon glyphicon-home">Voice Assistant/Smart Speakers</a></li>
+ 
+<!-- </div> -->
+<!-- </body> -->
+<!-- </html> -->

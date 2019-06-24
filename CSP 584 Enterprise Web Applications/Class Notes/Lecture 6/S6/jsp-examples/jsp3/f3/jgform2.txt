@@ -1,0 +1,51 @@
+<HTML>
+<HEAD><TITLE>A typical form entry page</TITLE></HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<CENTER>
+
+<FORM ACTION="jganswers2.jsp" METHOD="GET">
+
+<P>A radio button:</P>
+
+<TABLE BORDER="1" WIDTH="60%"><TR><TD>
+<P>Have you ever met James Gosling?</P>
+
+<INPUT TYPE="RADIO" NAME="met" VALUE="no" CHECKED>no<br>
+<INPUT TYPE="RADIO" NAME="met" VALUE="yes">yes<br>
+</TD></TR></TABLE>
+
+<P>A menu, allowing multiple entries:</P>
+
+<TABLE BORDER="1" WIDTH="60%"><TR><TD>
+At which conferences have you heard him speak?<P>
+
+<SELECT NAME="conferences" MULTIPLE="yes">
+<OPTION NAME="Java One, 1996">Java One, 1996
+<OPTION NAME="Java One, 1997">Java One, 1997
+<OPTION NAME="Java One, 1998">Java One, 1998
+<OPTION NAME="Java One, 1999">Java One, 1999
+</SELECT>
+</TD></TR></TABLE>
+
+<P>A menu, with multiple answers:</P>
+
+<TABLE BORDER="1" WIDTH="60%"><TR><TD>
+<P>If you could ask Mr. Gosling one question, what would it be?
+
+<INPUT TYPE="TEXT" NAME="question">
+</TD></TR></TABLE>
+
+<P>Finally, an input button</P>
+
+<TABLE BORDER="1" WIDTH="60%"><TR><TD>
+<INPUT TYPE="SUBMIT" NAME="go" VALUE="Go!">
+</TD></TR></TABLE>
+
+</FORM>
+</CENTER>
+
+
+</BODY>
+</HTML>

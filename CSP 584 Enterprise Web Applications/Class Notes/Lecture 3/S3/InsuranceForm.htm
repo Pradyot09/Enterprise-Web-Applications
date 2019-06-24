@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- 
+Front end to InsuranceInfo servlet. Note that the names of
+the form parameters here *must* match the names of the bean
+properties.
+
+Taken from Core Servlets and JavaServer Pages 2nd Edition
+from Prentice Hall and Sun Microsystems Press,
+http://www.coreservlets.com/.
+(C) 2003 Marty Hall; may be freely used or adapted.
+-->
+<HTML><HEAD><TITLE>Employee Insurance Signup</TITLE></HEAD>
+<BODY BGCOLOR="#FDF5E6">
+<CENTER>
+<H1>Employee Insurance Signup</H1>
+
+<FORM ACTION="/csj/SubmitInsuranceInfo">
+  Name:  <INPUT TYPE="TEXT" NAME="name"><BR>
+  Employee ID: <INPUT TYPE="TEXT" NAME="employeeID"><BR>
+  Number of Children:  <INPUT TYPE="TEXT" NAME="numChildren"><BR>
+  <INPUT TYPE="CHECKBOX" NAME="married" VALUE="true">Married?<BR>
+  <CENTER><INPUT TYPE="SUBMIT"></CENTER>
+</FORM>
+
+</CENTER></BODY></HTML>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+<WearableTechCatalog>
+    <wearabletech id="Fitness Watches Alta">
+        <name>Fitbit Fitness</name>
+        <price>79</price>
+        <image>Fitbit_Alta.jpg</image>
+        <manufacturer>Dell</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </wearabletech>
+	 <wearabletech id="Fitness Watches Dell">
+        <name>Forerunner Fitbit</name>
+        <price>69</price>
+        <image>Fitbit_Alta.jpg</image>
+        <manufacturer>Dell</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </wearabletech>
+	
+	<wearabletech id="Smart Watche Xiomi">
+        <name>Smart Watch Xiomi</name>
+        <price>79</price>
+        <image>ElodaSmartWatche.jpg</image>
+        <manufacturer>Xiomi</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </wearabletech>
+	 
+	<wearabletech id="Smart Watches Eloda">
+        <name>Xiomi Smart Gear</name>
+        <price>79</price>
+        <image>XiomiSmartWatch.jpg</image>
+        <manufacturer>Xiomi</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </wearabletech>
+
+	<wearabletech id="HeadPhones Sony">
+        <name>Sony Head Phones</name>
+        <price>152.99</price>
+        <image>SonyHeadphones.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </wearabletech>
+
+	<wearabletech id="HeadPhones Sony Big">
+        <name>Sony Head Phones</name>
+        <price>129.99</price>
+        <image>BeatsHeadphones.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </wearabletech>
+	
+	<wearabletech id="Virtual Reality Samsung">
+        <name>Samsung Virtual Reality</name>
+        <price>129.99</price>
+        <image>SamsungVR1.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </wearabletech>
+	<wearabletech id="Virtual Reality Dell">
+        <name>Samsung Virtual Reality</name>
+        <price>159.99</price>
+        <image>SamsungVR2.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </wearabletech>
+	
+	<wearabletech id="PetTracker Reachfar">
+        <name>Reachfar PetTracker</name>
+        <price>39.99</price>
+        <image>ReachFarPetTracker.jpg</image>
+        <manufacturer>Micosoft</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </wearabletech>
+	<wearabletech id="PetTracker Microsoft">
+        <name>PetTracker</name>
+        <price>29.99</price>
+        <image>PetTracker.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </wearabletech>
+
+</WearableTechCatalog>
+
+<PhoneCatalog>
+    <phone id="IPhone6S">
+        <name>Apple Iphone 6S</name>
+        <price>600.99</price>
+        <image>IPhone6S.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </phone>
+    <phone id="IPhone7S">
+        <name>Apple Iphone 7S</name>
+        <price>889.99</price>
+        <image>Iphone7S.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </phone>
+    <phone id="ASUS zenfone 3 Deluxe">
+        <name>ASUS zenfone 3</name>
+        <price>180.99</price>
+        <image>ASUS_zenfone_3_Deluxe.jpg</image>
+        <manufacturer>ASUS</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </phone>
+	<phone id="ASUS Zenfone Selfie">
+        <name>ASUS Zenfone Selfie Zoom</name>
+        <price>299.99</price>
+        <image>ASUSZenfoneSelfie.jpg</image>
+        <manufacturer>ASUS</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </phone>
+    <phone id="Samsung Galaxy S7">
+        <name>Samsung Galaxy S7</name>
+        <price>600.99</price>
+        <image>SamsungGalaxy5.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </phone>
+    <phone id="Samsung Galaxy S8">
+        <name>Samsung Galaxy S8</name>
+        <price>700.99</price>
+        <image>SamsungGalaxyS8.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>12.0</discount>
+    </phone>
+	<phone id="Moto X">
+        <name>MotoX</name>
+        <price>299.99</price>
+        <image>MotoX.jpg</image>
+        <manufacturer>Motorolla</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+    </phone>
+
+	<phone id="Motorola Moto X1.jpg">
+        <name>Motorola Moto X1.jpg</name>
+        <price>350.99</price>
+        <image>Motorola-Moto-X1.jpg.jpg</image>
+        <manufacturer>Motorolla</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </phone>
+
+	<phone id="LG_Nexus 5X L1">
+        <name>LG_Nexus 5X L1</name>
+        <price>325.99</price>
+        <image>LG_Nexus_5X_L_1.jpg</image>
+        <manufacturer>Nexus</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </phone>
+
+	<phone id="Nexus 6X">
+        <name>Nexus 6X</name>
+        <price>295.99</price>
+        <image>Nexus_6X.jpg</image>
+        <manufacturer>Nexus</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+    </phone>
+</PhoneCatalog>
+
+<LaptopCatalog>
+<laptop  id="HP Chromebook 11 G5">
+        <name>HP Chromebook 11 G5</name>
+        <price>705.99</price>
+        <image>HP Chromebook 11 G5.jpg</image>
+        <manufacturer>HP</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+</laptop>
+<laptop id="HP_Spectre">
+        <name>HP_Spectre</name>
+        <price>800.99</price>
+        <image>HP_Spectre.png</image>
+        <manufacturer>HP</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>15.0</discount>
+</laptop>
+<laptop id="Laptops inspiron 15">
+        <name>Laptops inspiron 15</name>
+        <price>589.99</price>
+        <image>Laptops-inspiron-15.jpg</image>
+        <manufacturer>Dell</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</laptop>
+<laptop id="Dell-i5570-7262SLV-PUS">
+        <name>Dell i5570 7262SLV PUS</name>
+        <price>826.99</price>
+        <image>Dell-i5570-7262SLV-PUS.jpg</image>
+        <manufacturer>Dell</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</laptop>
+<laptop id="Apple-MacBook-Pro15-inch">
+        <name>Apple Mac Book Pro</name>
+        <price>1000.99</price>
+        <image>AppleMacBookPro15-inch.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</laptop>
+<laptop id="Apple-12-MacBook (Mid 2017, Rose Gold)">
+        <name>Apple 12 MacBook</name>
+        <price>1852.99</price>
+        <image>Apple12MacBook (Mid 2017, Rose Gold).jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</laptop>
+<laptop id="Acer-Chromebook-R11-CB5">
+        <name>Acer Chromebook R11 CB5</name>
+        <price>546.99</price>
+        <image>Acer Chromebook R11 CB5.jpg</image>
+        <manufacturer>Acer</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</laptop>
+<laptop id="AcerSP314-51-32Z9-U 14-inchLaptop">
+        <name>Acer SP314 51</name>
+        <price>652.99</price>
+        <image>AcerSP314-51-32Z9-U 14-inchLaptop.jpg</image>
+        <manufacturer>Acer</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</laptop>
+<laptop id="SAMSUNG-Chromebook-Plus-XE513C24-K01US OP1">
+        <name>SAMSUNG Chromebook Plus</name>
+        <price>845.99</price>
+        <image>SAMSUNG Chromebook Plus XE513C24-K01US OP1.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</laptop>
+<laptop id="SAMSUNG-B-Grade-Laptop-NP900X3D">
+        <name>SAMSUNG B Grade Laptop NP900X3D</name>
+        <price>695.99</price>
+        <image>SAMSUNG B Grade Laptop NP900X3D.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</laptop>
+</LaptopCatalog>
+
+<VoiceAssistantSmartSpeakerCatalog>
+
+    <voiceassistant id="Alexa-echo-dot-small">
+        <name>Alexa echo dot Small</name>
+        <price>50.99</price>
+        <image>Alexa-echo-dot_krcr.jpg</image>
+        <manufacturer>Amazon</manufacturer>
+        <condition>Old</condition>
+        <discount>10.0</discount>
+     </voiceassistant>
+
+    <voiceassistant id="Amazon_echo-dot-large">
+        <name>Amazon Echo Dot Large</name>
+        <price>89.99</price>
+        <image>Amazon_echo-dot-large.jpg</image>
+        <manufacturer>Amazon</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </voiceassistant>
+	 
+	<voiceassistant id="Google-Assistant-Home">
+        <name>Google Home</name>
+        <price>159.99</price>
+        <image>GoogleAssistant.jpg</image>
+        <manufacturer>Google</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </voiceassistant>
+
+    <voiceassistant id="Google-Home_mini">
+        <name>Google Home Mini</name>
+        <price>48.99</price>
+        <image>Google-Home_mini.jpg</image>
+        <manufacturer>Google</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </voiceassistant>
+	 
+	<voiceassistant id="Samsung-Smart-Speaker">
+		<name>Samsung Voice Assistant</name>
+		<price>89.99</price>
+		<image>SamsungSmartSpeaker.jpg</image>
+		<manufacturer>Samsung</manufacturer>
+		<condition>New</condition>
+		<discount>15.0</discount>
+	</voiceassistant>
+
+	<voiceassistant id="Samsung-Smart-Speaker">
+		<name>Samsung Voice Assistant</name>
+		<price>89.99</price>
+		<image>SamsungSmartSpeaker2.jpg</image>
+		<manufacturer>Samsung</manufacturer>
+		<condition>New</condition>
+		<discount>15.0</discount>
+	</voiceassistant>
+	 
+	<voiceassistant id="Samsung-Smart-Speaker">
+		<name>Samsung Voice Assistant</name>
+		<price>89.99</price>
+		<image>SamsungSmartSpeaker.jpg</image>
+		<manufacturer>Motorola</manufacturer>
+		<condition>New</condition>
+		<discount>15.0</discount>
+	</voiceassistant>
+	 
+	<voiceassistant id="Samsung-Smart-Speaker">
+		<name>Samsung Voice Assistant</name>
+		<price>89.99</price>
+		<image>SamsungSmartSpeaker.jpg</image>
+		<manufacturer>Motorola</manufacturer>
+		<condition>New</condition>
+		<discount>15.0</discount>
+	</voiceassistant>
+
+	<voiceassistant id="Samsung-Smart-Speaker">
+		<name>Samsung Voice Assistant</name>
+		<price>89.99</price>
+		<image>SamsungSmartSpeaker.jpg</image>
+		<manufacturer>Nexus</manufacturer>
+		<condition>New</condition>
+		<discount>15.0</discount>
+	</voiceassistant>
+	 
+	<voiceassistant id="Samsung-Smart-Speaker">
+		<name>Samsung Voice Assistant</name>
+		<price>89.99</price>
+		<image>SamsungSmartSpeaker.jpeg</image>
+		<manufacturer>Nexus</manufacturer>
+		<condition>New</condition>
+		<discount>15.0</discount>
+	</voiceassistant>
+</VoiceAssistantSmartSpeakerCatalog>
+</ProductCatalog>

@@ -1,0 +1,568 @@
+/* Decoration for Full Website */
+/* in order to avoid the conflict between Bootstrap CSS and this css , 'Important" tag is used */
+
+body {
+	margin: 0px;
+	padding: 0;
+	background:#0B0B61 !important;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;	
+}
+
+/* Decoration of CSS Headers tags for Full Website  */
+
+h1,h2,h3 {
+	margin: 0 !important;
+	font-weight: normal !important;
+	color: #6666FF !important;
+}
+
+h1 {
+	font-size: 40px !important;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+/* Decoration of Paragraph , Unordered and Ordered List tags for Full Website  */
+
+p,ul,ol {
+	margin-top: 0;
+	line-height: 240%;
+	text-align: justify;
+}
+
+/* Header Line Segment Display */
+hr {
+	display: none;
+}
+
+/* Header Content of the Website*/
+
+#header {
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+/* Game Speed LOGO Decoration */
+#logo {
+	width: 1000px;
+	height: 110px;
+	margin: 0 auto;
+	padding: 30px 20px 0px 20px;
+}
+
+/* Game Speed LOGO Decoration with Heading and paragraph Tags*/ 
+
+#logo h1,#logo p {
+	margin: 0px;
+	line-height: normal;
+	font-weight: normal;
+	color: #6A5ACD;
+
+}
+
+/* Game Speed LOGO Decoration with paragraph Tags */
+
+#logo p {
+	margin-top: -4px;
+	font-size: 13px;
+	color: #6A5ACD;
+
+}
+
+/* Game Speed LOGO Decoration with Heading Tags */
+
+#logo h1 {
+	font-size: 48px;
+	margin-bottom: 5px
+
+}
+
+/* Game Speed LOGO Decoration with Hyperlink Tags*/
+
+#logo a {
+	text-decoration: none;
+	color: #6A5ACD;
+
+}
+
+/* Game Speed LOGO Decoration with Heading and Hyperlink Tags */
+
+#logo h1 a {
+	text-decoration: none;
+	color: #D7DF01;
+}
+
+/* Decoration of Top/Main Navigation Bar (Menu Content)*/
+#menu {
+	float: left;
+	height: 60px;
+}
+
+/* Decoration of Top/Main Navigation Bar with Unordered List Tags (Menu Content)*/
+
+#menu ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+/* Decoration of Top/Main Navigation Bar with List Tags (Menu Content)*/
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+/* Decoration of Top/Main Navigation Bar with Hyperlink Tags (Menu Content)*/
+
+#menu a {
+	display: block;
+	float: left;
+	height: 32px;
+	padding: 12px 20px 0px 20px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+/* Decoration of Top/Main Navigation Bar with :hover Tags (Menu Content)*/
+
+#menu a:hover {
+	text-decoration: none;
+}
+
+/* Page Display Decoration*/
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 20px 0px 20px;
+}
+
+/* Content on the Screen (Products)*/
+
+#content {
+	float: right;
+	width: 750px;
+}
+
+/* Products Display on the Main Content Screen */
+.post {
+	width: 750px;
+	margin-bottom: 20px;
+	padding: 20px 0px;
+	background: #FFFFFF;
+	border-radius: 5px;
+}
+
+/* Decoration for Title of Products in the Main Content Screen */
+
+.post .title {
+	height: 44px;
+	padding: 0px 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Decoration for Product Title Links in the Main Content Screen */
+
+.post .title a {
+	letter-spacing: -1px;
+	text-decoration: none;
+	font-size: 30px;
+	color: #238EC6;
+}
+
+/* Decoration for Products Display in the Main Content Screen */
+
+.post .meta {
+	height: 32px;
+	margin-top: -10px;
+	margin-left: 2px;
+	padding: 4px 30px 6px 20px;
+	background: url(images/site/1.png) repeat-x left bottom;
+	background-size: fill;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #66665E;
+}
+
+/* Decoration for Products Display with span Tags*/
+
+.post .meta span {
+	display: block;
+	margin-top: -10px;
+}
+
+.post .entry {
+	padding: 10px 20px;
+	overflow-x: auto;
+	
+}
+
+.post .links {
+	background: #90BF35;
+	border: 1px solid #5F817E;
+}
+
+/* Decoration for Different Products in Game Speed Store. */
+
+.post .links {
+	display: block;
+	width: 120px;
+	height: 18px;
+	margin: 0px 0px 4px 0px;
+	padding: 3px 0px 0px 40px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/* Decoration for Products Reviews in the Main Content Screen */
+.post .comments {
+	display: block;
+	width: 120px;
+	height: 18px;
+	margin: 0px;
+	padding: 3px 0px 0px 40px;
+	background: #90BF35;
+	border: 1px solid #5F817E;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/* Left Navigation Bar - Sidebar */
+#sidebar {
+	float: left;
+	width: 225px;
+	font-size: 12px;
+}
+
+/* Left Navigation Bar - Decoration for Unordered List */
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+	border: none;
+}
+
+/* Left Navigation Bar - Decoration for List Items*/
+
+#sidebar li {
+	type : square;
+	margin-bottom: 20px;
+	padding: 10px 0px 10px 0px;
+	border-radius: 5px;
+	background: #D7DF01;
+	
+}
+
+/* Left Navigation Bar - Decoration for Consoles , Games , Tablets */
+
+#sidebar li ul {
+	margin: 0px 0px;
+	border: none;
+}
+
+/* Left Navigation Bar - Decoration for Various Product Lists */
+
+#sidebar li li {
+	margin: 0;
+	padding: 10px 0px;
+	border: none;
+	background: url(images/site/img06.jpg) repeat-x left top;
+	
+}
+
+/* Left Navigation Bar - Decoration for List Bullets */ 
+
+#sidebar li li a {
+	padding: 0px 0px 0px 30px;
+	font-weight: normal;
+	border: none;
+	background: url(images/site/2.png) no-repeat 15px 4px;
+}
+
+#sidebar li li a.viewmore {
+	background: none;
+	float: right;
+	margin-right: 20px;
+}
+
+/* Left Navigation Bar - Decoration for Hyperlink hover Tags ( Colour Changes) */ 
+
+#sidebar li li a:hover {
+	color: #666666;
+}
+
+/* Left Navigation Bar - Decoration for Paragraph Tags */
+
+#sidebar p {
+	margin: 0;
+	padding: 0px 14px;
+	line-height: 200%;
+}
+
+/* Left Navigation Bar - Decoration for Heading Tags */
+
+#sidebar h2 {
+	height: 32px;
+	margin: 0 0 10px 0px;
+	padding: 8px 0 10px 20px;
+	background: url(images/site/1.png) repeat-x left bottom;
+	font-size: 24px;
+	font-weight: normal;
+	color: #000000;
+	font-size: 24px;
+}
+
+/* Left Navigation Bar - Decoration for Heading Tags */
+
+#sidebar h3 {
+	margin-top: 5px;
+	text-align: center;
+}
+
+/* Left Navigation Bar - Decoration for Hyperlink Tags */ 
+
+#sidebar a {
+	text-align: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+/* Footer Content for Game Speed */
+
+#footer {
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0;
+	background: #323232 url(images/site/img02.jpg) repeat-x left top;
+}
+
+/* HTML Paragraph Element for Footer Content */
+
+#footer p {
+	margin: 0;
+	padding: 30px 0px 0px 0px;
+	text-align: center;
+	line-height: normal;
+	font-size: 10px;
+	color: #C7DAE5;
+}
+
+/*  Items in the Store Display */
+
+#shop_item {
+	border-radius: 5px;
+	border: 1px solid #000;
+	padding: 4px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+/*  Unordered List of Items in the Store Display */
+
+#shop_item ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+	
+}
+
+/*  Unordered List of Items and List Tags in the Store Display */
+
+#shop_item ul li {
+	margin-bottom: 5px;
+	margin-top: 6px;
+}
+
+/*  Image Display of Products in the Store  */
+
+#shop_item #item img {
+	display: block;
+	width: 180px;
+	height: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+/* Decoration for Display of Products in the Store  */
+
+#shop_item strong {
+	display: block;
+	text-align: center;
+	margin-bottom: 5px;
+	
+}
+
+/* Border Decoration for Display of Products in the Store  */
+
+#shop_item #item {
+	border: 1px solid #000;
+	
+}
+
+/* Heading Tag for Display of Products in the Store  */
+
+#shop_item h3 {
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 0;
+	
+}
+
+/* Button Decoration for Display of Products in the Store  */
+
+#shop_item button {
+	width: 100%;
+	margin-bottom: 6px;
+	overflow-x: scroll;
+	
+}
+
+/* Best Seller Products display on Home Screen*/
+
+#bestseller {
+	width: 100%
+}
+
+/* Best Seller Products display Table Data Decoration*/
+
+#bestseller td {
+	padding-bottom: 20px;
+}
+
+/* Buy Now buttons  Decoration for Products in Game Speed*/
+
+.btnbuy {
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 5px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	background: #3498db;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Review Buttons Decoration for Products in Game Speed*/
+
+.btnreview {
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 5px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	background: #3498db;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Buy and Review Buttons Decoration for Products with :hover tags*/
+
+.btnbuy:hover,.btnreview:hover {
+	background: #3cb0fd;
+	text-decoration: none;
+}
+
+/* Product Search Box Decoration ( Upper Right Corner)  */
+
+.input {
+	width: 100%;
+	height: 20px;
+	margin: 5px;
+	margin-left: 0px;
+}
+
+/* Cart Details Table ( Table Displayed During Check Out)  */
+
+table.gridtable {
+	font-family: verdana, arial, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+
+/* Decoration for Cart Details with Table Head Tags */
+
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+
+/* Decoration for Cart Details with Table Data Tags */
+
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+/* style for prev annd next button of carousel */
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+
+.container {
+  width:auto !important;
+	height:auto !important;
+	position:relative;
+	overflow:hidden;
+}
+
