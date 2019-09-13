@@ -1,1 +1,1 @@
-# CSP584-Enterprise-Web-Applications
+# Enterprise-Web-Applications
